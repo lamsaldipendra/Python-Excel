@@ -1,13 +1,5 @@
-import xlwings as xw
 import numpy as np
 import pandas as pd
-import sys
-import os
-import datetime as dt
-import time
-import xlrd
-import xlwt
-import xlsxwriter
 
 print ('reading and importing excel data to dataframe')
 Bk1=pd.read_excel(r'C:\Users\Dipendra\Desktop\Pythoncode\Sample - Superstore (1).xlsx', sheet_name='Orders')

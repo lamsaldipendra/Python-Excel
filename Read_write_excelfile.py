@@ -15,7 +15,6 @@ print('Done sorting by selected columns')
 
 print('Data ready to export')
 fname = input('Name of new workbook - ')
-sname = input('Name of the sheet the data to be exported to - ')
 
 print('Exporting to the new workbook')
 Customer.to_excel('{fname}.xlsx')
